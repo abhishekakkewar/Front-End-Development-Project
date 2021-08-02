@@ -1,0 +1,46 @@
+#logo {
+  margin: 0%;
+  height: 100px;
+  width: 100%;
+}
+#navbar2 {
+  padding-top: 0px;
+}
+.zoom:hover {
+  transform: scale(1.03);
+}
+.background-black {
+  background-color: black;
+}
+.icon1 {
+  height: 40px;
+  width: 50px;
+}
+.bg-light-blue {
+  background-color: #e1e5ea;
+}
+.tab {
+  tab-size: 8;
+}
+
+@media screen and (max-width: 480px) {
+  .display-none {
+    display: none;
+  }
+  #navbar1 {
+    display: none;
+  }
+  #logo {
+    height: 50px;
+    width: 200px;
+  }
+  .text-25 {
+    font-size: 25px;
+  }
+  .text-20 {
+    font-size: 20px;
+  }
+  .text-10 {
+    font-size: 10px;
+  }
+}
